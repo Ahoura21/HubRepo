@@ -40,11 +40,12 @@ public class studentTest{
 				}catch(Exception ex){
 					ex.printStackTrace();
 				}
-		System.out.println(" ----------  ");	
+		System.out.println(" ----------  ");	// to make the output more clean and readable
 		
 		Student shagerd = new Student();
 		shagerd.fillArray();
-		System.out.println(" ----------  ");
+		
+		System.out.println(" ----------  ");	// to make the output more clean and readable
 		
 		CourseInfo crs = new CourseInfo();
 		crs.register();
@@ -54,28 +55,3 @@ public class studentTest{
 	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
- school policy for buffreder and stuff,
- make an array for their grades and make it final.
- make a static variable or method for something lol
- 
-
-
-
-
-
-*/
